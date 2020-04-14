@@ -11,7 +11,7 @@ import std.datetime : Duration, msecs;
 import std.exception : collectException;
 import std.file : exists;
 import std.getopt : defaultGetoptPrinter, getopt, GetoptResult;
-import std.path : dirName;
+import std.path : dirName, isValidPath;
 import std.range : ElementEncodingType, isInputRange;
 import std.stdio : writeln;
 
