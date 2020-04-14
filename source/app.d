@@ -158,7 +158,7 @@ unittest
     auto path = buildPath(dir, "a");
     write(path,[1]);
 
-    assert (existedFor(path, 1.msecs));
+    assert (existedFor(path, 0.msecs));
     assert (!existedFor(path, 10.seconds));
     assert (collectException!Error(existedFor(path, (-100).seconds)) !is null);
 }
