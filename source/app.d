@@ -173,7 +173,8 @@ unittest
     Returns: `path` joined with the currrent date using the format YYYY-MM-DD, and an optional extension.
 */
 public string buildPathWithCurrentDate(string path, string extension = "") @safe
-    in(path.exists)
+    in (path.exists)
+    out (result; result.isValidPath)
 {
     import std.array : array;
     import std.datetime : Clock, Date, SysTime;
