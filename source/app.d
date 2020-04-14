@@ -136,7 +136,7 @@ public bool existedFor(string path, Duration duration) nothrow @safe
     
     bool result;
     auto ex = collectException(
-                                abs(Clock.currTime() - path.timeLastModified) > duration, result
+                                abs(Clock.currTime() - path.timeLastModified) >= duration, result
                               );
     
     return ex !is null ? false : result;
