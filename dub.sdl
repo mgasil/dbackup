@@ -1,0 +1,5 @@
+name "dbackup"
+description "Backup a directory and its content, with optional filtering of unwanted files."
+authors "mgasil"
+copyright "Copyright © 2020, Daniel Jansson"
+license "GPLv3"
