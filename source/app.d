@@ -135,9 +135,8 @@ public bool existedFor(string path, Duration duration) nothrow @safe
     import std.file : timeLastModified;
     
     bool result;
-    auto currTime = Clock.currTime();
     auto ex = collectException(
-                                abs(currTime - path.timeLastModified) > duration, result
+                                abs(Clock.currTime() - path.timeLastModified) > duration, result
                               );
     
     return ex !is null ? false : result;
