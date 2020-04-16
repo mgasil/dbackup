@@ -515,13 +515,13 @@ private struct Command
     private void backup(string from, string to)
     {
         bool isExtension(Range)(Range extensionsData, string str) nothrow pure @safe @nogc
-        if (isInputRange!Range)
+            if (isInputRange!Range)
         {
             return extensionsData.canFind(str.extension);
         }
         
         bool isDirname(Range)(Range dirsData, string str) @safe
-        if (isInputRange!Range)
+            if (isInputRange!Range)
         {
             auto subDirs = str.split(dirSeparator);
             return dirsData.map!(dir => dir.dropOne)
@@ -532,7 +532,7 @@ private struct Command
         }
         
         bool isFilename(Range)(Range filenames, string str) nothrow pure @safe @nogc
-        if (isInputRange!Range)
+            if (isInputRange!Range)
         {
             return filenames.canFind(str.baseName);
         }
