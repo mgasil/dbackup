@@ -1,6 +1,6 @@
 # dbackup
-
-[![Build status](https://img.shields.io/github/workflow/status/mgasil/dbackup/Run all D Tests/master)](https://github.com/mgasil/dbackup/actions?query=workflow%3A%22Run+all+D+Tests%22) 
+[![Build status](https://img.shields.io/github/workflow/status/mgasil/dbackup/Run%20all%20D%20Tests/master)](https://github.com/mgasil/dbackup/actions?query=workflow%3A%22Run+all+D+Tests%22)
+[![Build status](https://img.shields.io/github/workflow/status/mgasil/dbackup/Validate%20style/master)](https://github.com/mgasil/dbackup/actions?query=workflow%3A%22Validate+style%22)
 [![Github Downloads (monthly)](https://img.shields.io/github/downloads/mgasil/dbackup/total.svg)]()
 [![Licensed under the GPLv3 License](https://img.shields.io/badge/License-GPLv3-red.svg)](https://github.com/mgasil/dbackup/LICENSE)
 
@@ -58,9 +58,9 @@ There are no special requirements to run `dbackup`.
 
 ## Contribution
 
-We welcome and appreciate any help, even if it's a tiny text or code change. Please read [contribution](https://github.com/mgasil/dbackup/CONTRIBUTING.md) page before starting work on a pull request. All contributors are listed in the project's wiki [page](https://github.com/mgasil/dbackup/wiki/Contributors). 
+We welcome and appreciate any help, even if it's a tiny text or code change. Please read [contribution](https://github.com/mgasil/dbackup/blob/master/CONTRIBUTING.md) page before starting work on a pull request. All contributors are listed in the project's wiki [page](https://github.com/mgasil/dbackup/wiki/Contributors). 
 Not sure what to start with? Feel free to refer to <kbd>[good first issue](https://github.com/mgasil/dbackup/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)</kbd> or <kbd>[help wanted](https://github.com/mgasil/dbackup/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)</kbd> tags.
 
 ## License
 
-This project is under GNU General Public License v3.0. Please refer to file [**LICENSE**](https://github.com/mgasil/dbackup/LICENSE) for more details.
+This project is under GNU General Public License v3.0. Please refer to file [**LICENSE**](https://github.com/mgasil/dbackup/blob/master/LICENSE) for more details.
